@@ -15,9 +15,19 @@
 
 # Question 3 Ask a user their weight (in pounds), convert it to kilograms and print on the terminal
 
-weight = input("What is your weight in pounds? ")
-kilo = int(weight) / 2.20462262
-print(kilo)
+weight = input("What is your weight? ")
+pounds_or_kilos = input("Is this in (L)bs or (K)g? ")
+L = int(weight) / 2.20462262
+K = int(weight) * 2.20462262
+
+if pounds_or_kilos == "K" or "k":
+    print(f"Your weight in pounds would be {K}lbs")
+elif pounds_or_kilos == "L" or "l":
+    print(f"Your weight in Kilograms would be {L}kg")
+
+
+
+
 
 
 # Question 4 Using Arithmetic Operations, solve the following problem
