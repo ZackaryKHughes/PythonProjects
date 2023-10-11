@@ -26,5 +26,22 @@ x = (2 + 3) * 10 - 3
 # First the 2 + 3 = 5. Then Multiplication so 5 * 3 = 50. Then subtraction 50 - 3 = 47.
 print(x)
 
+# Question 5 A price of a house is $1M. If the buyer has good credit they need to put down 10%. Otherwise they need to put down 20%. Print the down payment for a buyer with good credit.
+
+house = 1000000
+good_credit = False
+bad_credit = True
+
+if good_credit:
+    down_payment = house * .10
+    print(f"You have really good credit and you down payment is only 10%. That will come out to be ${down_payment}")
+elif bad_credit:
+    down_payment = house * .20
+    print(f"Your credit isn't the best but we can still make the deal. We just need a higher down payment of 20%, which will be ${down_payment}")
+else:
+    print("I am sorry but you do not qualify for this house.")
+
+
+
 
 
