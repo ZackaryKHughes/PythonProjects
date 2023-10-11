@@ -20,5 +20,11 @@ kilo = int(weight) / 2.20462262
 print(kilo)
 
 
+# Question 4 Using Arithmetic Operations, solve the following problem
+
+x = (2 + 3) * 10 - 3
+# First the 2 + 3 = 5. Then Multiplication so 5 * 3 = 50. Then subtraction 50 - 3 = 47.
+print(x)
+
 
 
