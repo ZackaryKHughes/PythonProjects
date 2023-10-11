@@ -20,9 +20,9 @@ pounds_or_kilos = input("Is this in (L)bs or (K)g? ")
 L = int(weight) / 2.20462262
 K = int(weight) * 2.20462262
 
-if pounds_or_kilos == "K" or "k":
+if pounds_or_kilos.upper == "K":
     print(f"Your weight in pounds would be {K}lbs")
-elif pounds_or_kilos == "L" or "l":
+elif pounds_or_kilos.upper == "L":
     print(f"Your weight in Kilograms would be {L}kg")
 
 
