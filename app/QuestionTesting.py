@@ -42,6 +42,18 @@ else:
     print("I am sorry but you do not qualify for this house.")
 
 
+# Question 6 If name is less than 3 characters long name must be at least 3 characters otherwise if it more than 50 characters long name can be a mximum of 50 character otherwise name looks good!
+
+
+name = input("What is your name? ")
+
+
+if len(name) < 3 or len(name) > 50:
+    print("Please enter a name the is more than 3 or less than 50 characters long")
+else:
+    print("Name looks good, have a great day!")
+
+
 
 
 
